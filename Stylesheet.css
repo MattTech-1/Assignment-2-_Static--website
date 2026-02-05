@@ -99,7 +99,7 @@ body{
     align-items:normal;        
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: auto;
+    
     
     
     margin: 0px;
@@ -244,6 +244,9 @@ body{
     border-width: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center; 
+    overflow: hidden;
 
 
 }
@@ -278,6 +281,8 @@ body{
 #biggerMario{
     width: auto;
     height:500px;
+    border: solid;
+    margin-bottom: 30px;
 }
 
 /*Universe, Role, Species, Power Level*/
@@ -311,6 +316,25 @@ body{
 
 
 }
+
+#detailsButton{
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 300px;
+    height: 30px;
+    border-radius: 28px;
+    background: #ffffff;
+    margin-left: 85px
+
+}
+
+#detailsButton:hover{
+    background-color: #f6f6f6;
+    transition: box-shadow 1s;
+
+}
+
+
 
 
 
