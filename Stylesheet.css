@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(214, 52, 52);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(196, 49, 49);
+}
+
+.navbar li{
+    float: left;
+}
+
+#indexTitle{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#searchBar{
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    --padding: 14px;
+
+
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background: #f6f6f6;
+    transition: box-shadow 0.25s;
+}
+
+.search:focus-within{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+}
+
+.search-input {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+   
+}
+
+.search-input::placeholder,
+.search-icon {
+    color: rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: gray;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
