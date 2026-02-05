@@ -143,6 +143,8 @@ body{
     border-radius: 28px;
     background: #ffffff;
     
+    
+    
 }
 
 #infoButton:hover{
@@ -221,30 +223,97 @@ body{
     border-width: 2px;
     display: flex;
     justify-content: space-evenly;
-    align-items:normal;        
-    flex-direction: row;
+    align-items:center;        
+    flex-direction: column;
     flex-wrap: wrap;
-    overflow: auto;
-    margin: 0px;
-
+    margin: px;
+    
+    
 }
 
 .detailCard{
-      box-shadow:0 0 0 1px rgb(75, 70, 70, 0.2);
+    box-shadow:0 0 0 1px rgb(75, 70, 70, 0.2);
+    border: solid rgb(175, 173, 173) ;
+    border-width: 1px;
+    margin: 3px;
+    padding: 14px;
+    text-align: left;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    border-width: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.detailTemplate{
+     box-shadow:0 0 0 1px rgb(75, 70, 70, 0.2);
     border: solid rgb(175, 173, 173) ;
     border-width: 1px;
     margin: 30px;
     padding: 14px;
     text-align: left;
     border-radius: 10px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;        
-    flex-direction: row;
-    width: 300px;
+    flex-direction: column;
+    width: 500px;
     height: auto;
+    border-width: 2px;
+    
+    
+
+}
+
+#detailTitle{
+    text-align: left;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+}
+
+
+#biggerMario{
+    width: auto;
+    height:500px;
+}
+
+/*Universe, Role, Species, Power Level*/
+.universe{
+   
+    width: 150px;
+    padding-left: 10px;
+    
+}
+
+.species{
+    
+    width: 150px;
+    padding-left: 10px;
+    
+}
+
+
+.role{
+    
+    width: 150px;
+    padding-left: 10px;
+    
+}
+
+.powerLevel{
+    
+    width: 150px;
+    padding-left: 10px;
+    
 
 
 }
+
+
+
 
 
 /*New Character form*/
