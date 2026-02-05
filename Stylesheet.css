@@ -31,7 +31,9 @@ body{
 
 #indexTitle{
     text-align: center;
+    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 
@@ -171,6 +173,17 @@ body{
 
 /*about page*/
 
+#AboutTitle{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .containerAbout{
     
     border-width: 2px;
@@ -180,8 +193,6 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     overflow: auto;
-    
-    
     margin: 0px;
     
 }
@@ -203,6 +214,100 @@ body{
 
     
 }
+
+
+/*detail*/
+.containerDetail{
+    border-width: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:normal;        
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin: 0px;
+
+}
+
+.detailCard{
+      box-shadow:0 0 0 1px rgb(75, 70, 70, 0.2);
+    border: solid rgb(175, 173, 173) ;
+    border-width: 1px;
+    margin: 30px;
+    padding: 14px;
+    text-align: left;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;        
+    flex-direction: row;
+    width: 300px;
+    height: auto;
+
+
+}
+
+
+/*New Character form*/
+
+
+.containerNew{
+    border-width: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:normal;        
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin: 0px;
+  
+
+
+}
+
+
+.newCard{
+    box-shadow:0 0 0 1px rgb(75, 70, 70, 0.2);
+    border: solid rgb(175, 173, 173) ;
+    border-width: 1px;
+    margin: 30px;
+    padding: 14px;
+    text-align: left;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;        
+    flex-direction: row;
+    width: 300px;
+    height: auto;
+    
+
+
+}
+
+
+.select{
+    padding: 8px 12px;
+    color: #333333;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    cursor: pointer;
+    border-radius: 28px;
+    width: 300px;
+    height: 50px;
+    
+}
+
+#shortDescription{
+    border: none;
+    box-shadow:0 0 0 1px rgb(75, 70, 70, 0.2);
+    width: 290px;
+
+}
+
+
+
+
+
+
 
 
 
